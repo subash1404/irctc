@@ -1,0 +1,10 @@
+type Query
+{
+    getUsers : [User]!
+    hello : String
+#    getUserById(id: String) : User
+#
+#    getTrains : [Train]!
+#
+#    getStations : [Station]!
+}
